@@ -1,0 +1,26 @@
+Source: node-grunt-contrib-internal
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends:
+ debhelper-compat (= 13)
+ , dh-sequence-nodejs
+ , grunt
+ , node-read-package-json
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-grunt-contrib-internal
+Vcs-Git: https://salsa.debian.org/js-team/node-grunt-contrib-internal.git
+Homepage: https://github.com/gruntjs/grunt-contrib-internal
+Rules-Requires-Root: no
+
+Package: node-grunt-contrib-internal
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , node-read-package-json
+Description: Internal tasks for managing the grunt-contrib projects
+ This grunt plugin is required for building other grunt plugins
+ .
+ Node.js is an event-based server-side JavaScript engine.

@@ -1,0 +1,37 @@
+node-grunt-contrib-internal (4.0.1-2) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.1
+  * Modernize debian/watch
+    * Fix GitHub tags regex
+    * Use dh-sequence-nodejs
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix filenamemangle
+  * Drop dependency to nodejs
+
+ -- Yadd <yadd@debian.org>  Tue, 16 Nov 2021 18:44:18 +0100
+
+node-grunt-contrib-internal (4.0.1-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Update VCS fields to salsa
+  * New upstream version 4.0.1
+  * Refresh patch
+  * Fix "main" field in package.json
+  * Update lintian overrides
+  * Use pkg-js-tools auto install (requires 0.9.27~)
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 22 Feb 2020 18:26:13 +0100
+
+node-grunt-contrib-internal (1.2.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #845017)
+
+ -- Pirate Praveen <praveen@debian.org>  Sat, 19 Nov 2016 20:30:14 +0530

@@ -1,0 +1,6 @@
+.travis.yml
+appveyor.yml
+AUTHORS
+CHANGELOG
+CONTRIBUTING.md
+Gruntfile.js

@@ -1,0 +1,2 @@
+# False positive
+node-grunt-contrib-internal: package-contains-documentation-outside-usr-share-doc usr/share/nodejs/grunt-contrib-internal/tasks/assets/README.tmpl.md

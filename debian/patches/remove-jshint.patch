@@ -1,0 +1,20 @@
+Description: Remove jshint
+Author: Pirate Praveen <praveen@debian.org>
+Forwarded: not-needed
+Reviewed-By: Xavier Guimard <yadd@debian.org>
+Last-Update: 2020-02-22
+
+--- a/Gruntfile.js
++++ b/Gruntfile.js
+@@ -26,9 +26,9 @@
+   grunt.loadTasks('tasks');
+ 
+   // These plugins provide necessary tasks.
+-  grunt.loadNpmTasks('grunt-contrib-jshint');
++  //grunt.loadNpmTasks('grunt-contrib-jshint');
+ 
+   // By default, lint task.
+-  grunt.registerTask('default', ['jshint', 'build-contrib']);
++  grunt.registerTask('default', ['build-contrib']);
+   grunt.registerTask('test', ['default']);
+ };

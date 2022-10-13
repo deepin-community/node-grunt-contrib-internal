@@ -1,0 +1,36 @@
+{
+  "name": "grunt-contrib-internal",
+  "description": "Internal tasks for managing the grunt-contrib projects",
+  "version": "4.0.1",
+  "author": {
+    "name": "Grunt Team",
+    "url": "https://gruntjs.com/"
+  },
+  "repository": "gruntjs/grunt-contrib-internal",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "read-package-json": "^2.1.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-jshint": "^2.1.0"
+  },
+  "peerDependencies": {
+    "grunt": ">=0.4.0"
+  },
+  "keywords": [],
+  "files": [
+    "tasks",
+    ".travis.yml",
+    "appveyor.yml",
+    "LICENSE-MIT",
+    "CONTRIBUTING.md"
+  ],
+  "appveyor_id": "vhmcvnnnmou73wq8"
+}

@@ -1,0 +1,15 @@
+Description: fix main field
+Author: Xavier Guimard <yadd@debian.org>
+Forwarded: no
+Last-Update: 2020-02-22
+
+--- a/package.json
++++ b/package.json
+@@ -2,6 +2,7 @@
+   "name": "grunt-contrib-internal",
+   "description": "Internal tasks for managing the grunt-contrib projects",
+   "version": "4.0.1",
++  "main": "tasks/build-contrib.js",
+   "author": {
+     "name": "Grunt Team",
+     "url": "https://gruntjs.com/"

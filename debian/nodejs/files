@@ -1,0 +1,4 @@
+tasks
+.travis.yml
+appveyor.yml
+CONTRIBUTING.md
